@@ -18,7 +18,7 @@ class Main : public CBase_Main
 class Hello : public CBase_Hello
 {
     public:
-    void SayHi(BaseIntervention b)
+    void SayHi(const BaseIntervention& b)
     {
         b.test();
     }

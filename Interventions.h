@@ -6,12 +6,12 @@
 class BaseIntervention {
     
   public:
-    virtual void test() ;
+    virtual void test() const;
     void pup(PUP::er &p);
 };
 
 class VaccinationIntervention : public BaseIntervention {
   public:
-    void test()  override;
+    void test() const override;
 };
 #endif

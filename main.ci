@@ -8,6 +8,6 @@ mainmodule hello {
     array [1D] Hello {
         // Hello's entry methods
         entry Hello();
-        entry void SayHi(BaseIntervention b);
+        entry void SayHi(const BaseIntervention& b);
     };
 };
